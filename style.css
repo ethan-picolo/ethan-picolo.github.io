@@ -200,3 +200,31 @@ a {
   font-weight: 700;
 }
 
+.badge-card{
+  transform-style: preserve-3d;
+  perspective: 900px;
+  transition: transform .25s ease, box-shadow .25s ease, border-color .25s ease;
+}
+
+.badge-card:hover{
+  transform: translateY(-4px) rotateX(2deg) rotateY(-2deg);
+  border-color: rgba(56,189,248,0.35);
+}
+
+.badge-img{
+  transform: translateZ(20px);
+  transition: transform .25s ease;
+}
+
+.badge-card:hover .badge-img{
+  transform: translateZ(30px) rotate(-2deg) scale(1.03);
+}
+
+.btn{
+  transition: transform .2s ease, opacity .2s ease, border-color .2s ease;
+}
+
+.btn:hover{
+  transform: translateY(-2px);
+}
+
