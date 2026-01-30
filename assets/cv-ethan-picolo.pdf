@@ -1,0 +1,90 @@
+<section id="cv" class="section">
+  <div class="section-header">
+    <h2>CV</h2>
+    <p>Mon parcours en timeline + version PDF.</p>
+
+    <div class="btn-row">
+      <a class="btn" href="assets/cv-ethan-picolo.pdf" target="_blank" rel="noopener">Voir le CV (PDF)</a>
+      <a class="btn btn-ghost" href="assets/cv-ethan-picolo.pdf" download>Télécharger</a>
+    </div>
+  </div>
+
+  <div class="timeline">
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-top">
+          <span class="t-date">2025 – 2028</span>
+          <span class="t-tag">Formation</span>
+        </div>
+        <h3>Bachelor Ingénierie & Cybersécurité — eFrei (Paris Panthéon-Assas)</h3>
+        <ul>
+          <li>Architecture des systèmes</li>
+          <li>Réseaux & cybersécurité</li>
+          <li>Algorithmie / maths appliquées</li>
+          <li>Base de données</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-top">
+          <span class="t-date">2021</span>
+          <span class="t-tag">Expérience</span>
+        </div>
+        <h3>Stage de découverte — ESN SPIE ICS (1 semaine)</h3>
+        <ul>
+          <li>Observation admin systèmes & réseaux / infra / archi IT</li>
+          <li>Découverte des enjeux de sécurité en environnement pro</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-top">
+          <span class="t-date">2024 – 2026</span>
+          <span class="t-tag">Certifications</span>
+        </div>
+        <h3>Certifs & apprentissage</h3>
+        <ul>
+          <li>Cisco: Introduction à la Cybersécurité, Networking Basics, Python Essentials</li>
+          <li>Google: Ads Search, Analytics</li>
+          <li>IBM SkillsBuild: AI Fundamentals (en cours)</li>
+          <li>TryHackMe: ~80 rooms (CTF, SIEM, pentest, crypto…)</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="t-item">
+      <div class="t-dot"></div>
+      <div class="t-card">
+        <div class="t-top">
+          <span class="t-date">Projets</span>
+          <span class="t-tag">Perso</span>
+        </div>
+        <h3>Projets informatiques</h3>
+        <ul>
+          <li>Jeu vidéo en Python</li>
+          <li>Site web en HTML</li>
+          <li>Jeu C avec matchmaking</li>
+          <li>Base de données SQL relationnelle</li>
+          <li>Windows Server 2022 (installation / config)</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="pdf-embed">
+    <h3>Aperçu PDF</h3>
+    <iframe
+      title="CV Ethan Picolo"
+      src="assets/cv-ethan-picolo.pdf#view=FitH"
+      loading="lazy">
+    </iframe>
+    <p class="hint">Si l’aperçu ne s’affiche pas sur ton navigateur, utilise “Voir le CV (PDF)”.</p>
+  </div>
+</section>
