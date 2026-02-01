@@ -426,3 +426,37 @@ body{
     display: flex;
   }
 }
+
+.nav-toggle{
+  display: none;
+  font-size: 26px;
+  background: none;
+  border: none;
+  color: #38bdf8;
+  cursor: pointer;
+}
+
+/* mobile */
+@media (max-width: 900px){
+
+  .nav-toggle{
+    display: block;
+  }
+
+  .nav-links{
+    position: absolute;
+    top: 70px;
+    right: 20px;
+    background: #020617;
+    border: 1px solid rgba(56,189,248,0.3);
+    border-radius: 14px;
+    flex-direction: column;
+    padding: 16px;
+    gap: 14px;
+    display: none;
+  }
+
+  .nav-links.open{
+    display: flex;
+  }
+}
