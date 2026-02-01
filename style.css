@@ -520,3 +520,52 @@ a {
 
 body{ padding-top: 72px; }
 section{ scroll-margin-top: 90px; }
+
+.hero{
+  position: relative;
+  min-height: 46vh;
+  display: grid;
+  place-items: center;
+  overflow: hidden;
+  border-bottom: 1px solid rgba(148,163,184,0.12);
+}
+
+.hero-certifs{
+  background:
+    radial-gradient(900px 500px at 15% 20%, rgba(56,189,248,0.22), transparent 60%),
+    radial-gradient(800px 500px at 85% 30%, rgba(99,102,241,0.18), transparent 55%),
+    url("assets/hero-certifs.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-overlay{
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, rgba(2,6,23,0.25), rgba(2,6,23,0.92));
+}
+
+.hero-content{
+  position: relative;
+  z-index: 1;
+  max-width: 1100px;
+  width: 100%;
+  padding: 72px 24px 56px;
+}
+
+.hero-kicker{
+  margin: 0 0 10px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  opacity: 0.85;
+  font-size: 0.9rem;
+}
+
+.hero h1{
+  margin: 0 0 10px;
+  font-size: clamp(2rem, 4vw, 3.1rem);
+  color: #38bdf8;
+}
+
+.hero-subtitle{
+  margin:
