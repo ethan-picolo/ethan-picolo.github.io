@@ -9,23 +9,64 @@
 
 <body>
 
-<header class="navbar">
-  <div class="nav-container">
-    <div class="logo">Ethan Picolo</div>
+<header class="site-header">
+  <!-- NAVBAR -->
+  <div class="navbar">
+    <div class="nav-container">
+      <a class="brand" href="#top" aria-label="Retour en haut">
+        <span class="brand-dot"></span>
+        <span class="brand-name">Ethan Picolo</span>
+      </a>
 
-    <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
-      ☰
-    </button>
+      <button class="nav-toggle" aria-label="Ouvrir le menu" aria-expanded="false">
+        ☰
+      </button>
 
-    <nav class="nav-links">
-      <a href="#about">À propos</a>
-      <a href="#cv">CV</a>
-      <a href="certifications.html">Certifications</a>
-      <a href="#projects">Projets</a>
-      <a href="https://github.com/ethan-picolo" target="_blank" rel="noopener">GitHub</a>
-    </nav>
+      <nav class="nav-links">
+        <a href="#about">À propos</a>
+        <a href="#cv">CV</a>
+        <a href="certifications.html">Certifications</a>
+        <a href="#projects">Projets</a>
+        <a href="https://github.com/ethan-picolo" target="_blank" rel="noopener">GitHub</a>
+      </nav>
+    </div>
   </div>
+  
+  <section id="top" class="hero">
+    <div class="hero-bg" aria-hidden="true"></div>
+
+    <div class="hero-content">
+      <p class="hero-kicker">Portfolio — Cybersécurité</p>
+      <h1 class="hero-title">
+        Construire, tester, sécuriser.
+      </h1>
+      <p class="hero-sub">
+        Étudiant en B1 Cybersécurité — labs, projets, CTF. Objectif : progresser vite et produire du concret.
+      </p>
+
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#cv">Voir mon CV</a>
+        <a class="btn btn-ghost" href="certifications.html">Mes certifications</a>
+      </div>
+
+      <div class="hero-stats">
+        <div class="stat">
+          <div class="stat-num">CTF</div>
+          <div class="stat-label">TryHackMe / pratique</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">Réseaux</div>
+          <div class="stat-label">Cisco / Packet Tracer</div>
+        </div>
+        <div class="stat">
+          <div class="stat-num">Linux</div>
+          <div class="stat-label">labs & admin</div>
+        </div>
+      </div>
+    </div>
+  </section>
 </header>
+
 
 <section id="about">
   <h2>À propos</h2>
