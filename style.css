@@ -163,14 +163,14 @@ a {
 
 .badge-top{
   display: flex;
-  gap: 12px;
+  gap: 18px;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 14px;
 }
 
 .badge-img{
-  width: 64px;
-  height: 64px;
+  width: 140px;
+  height: 140px;
   object-fit: contain;
   border-radius: 14px;
   border: 1px solid rgba(148,163,184,0.18);
