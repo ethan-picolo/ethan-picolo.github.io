@@ -7,15 +7,6 @@
   <link rel="stylesheet" href="style.css">
 </head>
 
-<script>
-const toggle = document.querySelector(".nav-toggle");
-const navLinks = document.querySelector(".nav-links");
-
-toggle.addEventListener("click", () => {
-  navLinks.classList.toggle("open");
-});
-</script>
-
 <body>
 
 <header class="navbar">
@@ -146,6 +137,15 @@ toggle.addEventListener("click", () => {
 <footer>
   <a href="https://github.com/ethan-picolo">GitHub</a>
 </footer>
+
+<script>
+const toggle = document.querySelector(".nav-toggle");
+const navLinks = document.querySelector(".nav-links");
+
+toggle.addEventListener("click", () => {
+  navLinks.classList.toggle("open");
+});
+</script>
 
 </body>
 </html>
